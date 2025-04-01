@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linkin Park Live в Брянске</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+      .hero-banner {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+          url("images/linkinpark.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        margin-bottom: 30px;
+      }
+      .hero-title {
+        font-size: 4rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      }
+      .btn-tickets {
+        padding: 15px 40px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-radius: 50px;
+        margin-top: 20px;
+      }
+      .info-block {
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        height: 100%;
+      }
+      .footer-icons {
+        font-size: 2rem;
+        margin: 20px 0;
+      }
+      .footer-icons a {
+        color: white;
+        margin: 0 15px;
+        transition: all 0.3s;
+      }
+      .footer-icons a:hover {
+        color: #ff6b6b;
+        transform: scale(1.2);
+      }
+      .footer-form {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border-radius: 10px;
+      }
+      .map-container {
+        height: 100%;
+        min-height: 300px;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .concert-place {
+        font-weight: bold;
+        color: #dc3545;
+      }
+      @media (max-width: 768px) {
+        .hero-title {
+          font-size: 2.5rem;
+        }
+      }
+
+      .navbar {
+    background: linear-gradient(to right, #000000, #1a1a1a);
+    border-bottom: 2px solid #ff0000;
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.3);
+}
+
+.navbar-brand img {
+    height: 70px;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 0, 0, 0.5);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-link {
+    position: relative;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    margin: 0 5px;
+    color: #ffffff !important;
+    transition: color 0.3s;
+    overflow: hidden;
+}
+
+.nav-link:hover {
+    color: #ff0000 !important;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background: #ff0000;
+    transform: translateX(-50%);
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+
+.nav-link.active {
+    color: #ff0000 !important;
+    cursor: default;
+}
+    </style>
+  </head>
+  <body>
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="glav.html">
+                <img src="images/logo.png" alt="Linkin Park" height="200">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="glav.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Концерт</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Состав</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tickets.html">Мировые туры</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="place.html">Альбомы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Контакты и отзывы</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="bileti.html">Билеты</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Герой-баннер -->
+    <div class="hero-banner">
+      <div class="container">
+        <h1 class="hero-title" data-aos="fade-up" data-aos-duration="1000">
+          ЛИНКИН ПАРК В БРЯНСКЕ
+        </h1>
+        <p class="lead fs-3" data-aos="fade-up" data-aos-duration="1200">
+          15 августа 2025 | <span class="concert-place">Стадион "Динамо"</span>
+        </p>
+        <a
+          href="#tickets"
+          class="btn btn-danger btn-lg btn-tickets"
+          data-aos="fade-up"
+          data-aos-duration="1400"
+          >КУПИТЬ БИЛЕТЫ</a
+        >
+      </div>
+    </div>
+
+    <!-- Информационные блоки -->
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="info-block bg-light" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="-100">
+            <h2 class="text-center mb-4">
+              <i class="fas fa-list-ol me-2"></i>Программа концерта
+            </h2>
+            <ul class="list-group mb-4">
+              <li class="list-group-item">18:00 - Открытие ворот</li>
+              <li class="list-group-item">
+                19:30 - Выступление специального гостя
+              </li>
+              <li class="list-group-item">20:30 - Linkin Park</li>
+              <li class="list-group-item">22:30 - Фейерверк</li>
+            </ul>
+            
+            <div class="playlist-container">
+              <h5 class="mb-3">Ожидаемые песни:</h5>
+              
+              <!-- Плейлист -->
+              <div class="playlist">
+                <!-- Трек 1 -->
+                <div class="track d-flex align-items-center mb-2 p-2 bg-light rounded">
+                  <button class="btn btn-sm btn-outline-danger play-btn me-3" data-audio="audio/in_the_end.mp3">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <span class="track-name flex-grow-1">In the End</span>
+                  <span class="badge bg-secondary ms-2">3:36</span>
+                  <audio class="d-none" src="audio/in_the_end.mp3"></audio>
+                </div>
+                
+                <!-- Трек 2 -->
+                <div class="track d-flex align-items-center mb-2 p-2 bg-light rounded">
+                  <button class="btn btn-sm btn-outline-danger play-btn me-3" data-audio="audio/numb.mp3">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <span class="track-name flex-grow-1">Numb</span>
+                  <span class="badge bg-secondary ms-2">3:07</span>
+                  <audio class="d-none" src="audio/numb.mp3"></audio>
+                </div>
+                
+                <!-- Трек 3 -->
+                <div class="track d-flex align-items-center mb-2 p-2 bg-light rounded">
+                  <button class="btn btn-sm btn-outline-danger play-btn me-3" data-audio="audio/crawling.mp3">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <span class="track-name flex-grow-1">Crawling</span>
+                  <span class="badge bg-secondary ms-2">3:29</span>
+                  <audio class="d-none" src="audio/crawling.mp3"></audio>
+                </div>
+                
+                <!-- Трек 4 -->
+                <div class="track d-flex align-items-center mb-2 p-2 bg-light rounded">
+                  <button class="btn btn-sm btn-outline-danger play-btn me-3" data-audio="audio/breaking_the_habit.mp3">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <span class="track-name flex-grow-1">Breaking the Habit</span>
+                  <span class="badge bg-secondary ms-2">3:16</span>
+                  <audio class="d-none" src="audio/breaking_the_habit.mp3"></audio>
+                </div>
+                
+                <!-- Трек 5 -->
+                <div class="track d-flex align-items-center mb-2 p-2 bg-light rounded">
+                  <button class="btn btn-sm btn-outline-danger play-btn me-3" data-audio="audio/one_step_closer.mp3">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <span class="track-name flex-grow-1">One Step Closer</span>
+                  <span class="badge bg-secondary ms-2">2:37</span>
+                  <audio class="d-none" src="audio/one_step_closer.mp3"></audio>
+                </div>
+                
+                <!-- Трек 6 -->
+                <div class="track d-flex align-items-center mb-2 p-2 bg-light rounded">
+                  <button class="btn btn-sm btn-outline-danger play-btn me-3" data-audio="audio/what_ive_done.mp3">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <span class="track-name flex-grow-1">What I've Done</span>
+                  <span class="badge bg-secondary ms-2">3:25</span>
+                  <audio class="d-none" src="audio/what_ive_done.mp3"></audio>
+                </div>
+              </div>
+              
+              <!-- Панель управления громкостью -->
+              <div class="player-controls mt-4 p-3 bg-dark rounded">
+                <div class="d-flex align-items-center">
+                  <button id="current-play-btn" class="btn btn-danger me-3" disabled>
+                    <i class="fas fa-pause"></i>
+                  </button>
+                  <div class="flex-grow-1 me-3">
+                    <div id="now-playing" class="text-white small">Не воспроизводится</div>
+                    <input type="range" class="form-range" id="volume-control" min="0" max="1" step="0.01" value="0.7">
+                  </div>
+                  <div class="text-white-50">
+                    Громкость: <span id="volume-value">70</span>%
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <style>
+      .playlist {
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        padding: 15px;
+        background-color: #f8f9fa;
+      }
+      .track {
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+      .track:hover {
+        background-color: #e9ecef;
+        transform: translateX(5px);
+      }
+      .track-name {
+        font-weight: 500;
+      }
+      .play-btn {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+      }
+      .player-controls {
+        transition: all 0.3s ease;
+      }
+      #volume-control {
+        cursor: pointer;
+      }
+      #volume-control::-webkit-slider-thumb {
+        background: #dc3545;
+      }
+      #volume-control::-moz-range-thumb {
+        background: #dc3545;
+      }
+    </style>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const playButtons = document.querySelectorAll('.play-btn');
+        const currentPlayBtn = document.getElementById('current-play-btn');
+        const nowPlayingText = document.getElementById('now-playing');
+        const volumeControl = document.getElementById('volume-control');
+        const volumeValue = document.getElementById('volume-value');
+        
+        let currentlyPlaying = null;
+        let currentVolume = 0.7;
+        
+        // Инициализация громкости
+        volumeControl.value = currentVolume;
+        volumeValue.textContent = Math.round(currentVolume * 100);
+        
+        // Обработчик изменения громкости
+        volumeControl.addEventListener('input', function() {
+          currentVolume = parseFloat(this.value);
+          volumeValue.textContent = Math.round(currentVolume * 100);
+          
+          if (currentlyPlaying) {
+            currentlyPlaying.volume = currentVolume;
+          }
+        });
+        
+        // Функция обновления информации о текущем треке
+        function updateNowPlaying(trackName) {
+          nowPlayingText.textContent = trackName || "Не воспроизводится";
+          currentPlayBtn.disabled = !trackName;
+        }
+        
+        // Обработчики для кнопок воспроизведения
+        playButtons.forEach(button => {
+          button.addEventListener('click', function() {
+            const audioSrc = this.getAttribute('data-audio');
+            const audioElement = this.parentElement.querySelector('audio');
+            const trackName = this.parentElement.querySelector('.track-name').textContent;
+            
+            // Если это тот же трек, что уже играет
+            if (currentlyPlaying === audioElement) {
+              if (audioElement.paused) {
+                audioElement.play();
+                this.innerHTML = '<i class="fas fa-pause"></i>';
+                currentPlayBtn.innerHTML = '<i class="fas fa-pause"></i>';
+              } else {
+                audioElement.pause();
+                this.innerHTML = '<i class="fas fa-play"></i>';
+                currentPlayBtn.innerHTML = '<i class="fas fa-play"></i>';
+              }
+              return;
+            }
+            
+            // Останавливаем все другие треки
+            if (currentlyPlaying) {
+              currentlyPlaying.pause();
+              const currentBtn = document.querySelector(`.play-btn[data-audio="${currentlyPlaying.src}"]`);
+              if (currentBtn) currentBtn.innerHTML = '<i class="fas fa-play"></i>';
+            }
+            
+            // Воспроизводим выбранный трек
+            audioElement.volume = currentVolume;
+            audioElement.play();
+            this.innerHTML = '<i class="fas fa-pause"></i>';
+            currentPlayBtn.innerHTML = '<i class="fas fa-pause"></i>';
+            currentlyPlaying = audioElement;
+            updateNowPlaying(trackName);
+            
+            // Обработка окончания трека
+            audioElement.onended = function() {
+              button.innerHTML = '<i class="fas fa-play"></i>';
+              currentPlayBtn.innerHTML = '<i class="fas fa-play"></i>';
+              currentlyPlaying = null;
+              updateNowPlaying(null);
+            };
+          });
+        });
+        
+        // Обработчик для основной кнопки воспроизведения/паузы
+        currentPlayBtn.addEventListener('click', function() {
+          if (currentlyPlaying) {
+            if (currentlyPlaying.paused) {
+              currentlyPlaying.play();
+              this.innerHTML = '<i class="fas fa-pause"></i>';
+              document.querySelector(`.play-btn[data-audio="${currentlyPlaying.src}"]`).innerHTML = '<i class="fas fa-pause"></i>';
+            } else {
+              currentlyPlaying.pause();
+              this.innerHTML = '<i class="fas fa-play"></i>';
+              document.querySelector(`.play-btn[data-audio="${currentlyPlaying.src}"]`).innerHTML = '<i class="fas fa-play"></i>';
+            }
+          }
+        });
+      });
+    </script>
+
+    <section id="about" class="py-5" style="background: #0a0a0a; color: white;">
+      <div class="container">
+        
+        <!-- Заголовок -->
+        <div class="text-center mb-5" data-aos="fade-down">
+          <h2 class="display-4 fw-bold text-danger">О КОНЦЕРТЕ</h2>
+          <div class="mx-auto" style="height: 3px; width: 100px; background: #ff0000;"></div>
+        </div>
+    
+    
+    
+        <!-- Почему стоит купить билеты -->
+        <div class="row mb-5" data-aos="fade-up">
+          <div class="col-12">
+            <div class="p-4 p-md-5 rounded" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)); background-size: cover; border: 2px solid #ff0000;">
+              <h3 class="text-center text-danger mb-4">ПОЧЕМУ ВАМ НУЖНО НА ЭТОТ КОНЦЕРТ</h3>
+              <div class="row">
+                <div class="col-md-4 mb-4">
+                  <div class="text-center p-3 h-100" style="background: rgba(255,0,0,0.1); border-radius: 8px;">
+                    <i class="fas fa-bolt text-danger mb-3" style="font-size: 2rem;"></i>
+                    <h4 class="text-white">РАЗ В ЖИЗНИ</h4>
+                    <p>После ухода Честера каждый концерт — историческое событие. Особенно в Брянске!</p>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <div class="text-center p-3 h-100" style="background: rgba(255,0,0,0.1); border-radius: 8px;">
+                    <i class="fas fa-volume-up text-danger mb-3" style="font-size: 2rem;"></i>
+                    <h4 class="text-white">НЕРЕАЛЬНЫЙ ЗВУК</h4>
+                    <p>Профессиональная постановка с мощными спецэффектами и идеальным звуком.</p>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <div class="text-center p-3 h-100" style="background: rgba(255,0,0,0.1); border-radius: 8px;">
+                    <i class="fas fa-users text-danger mb-3" style="font-size: 2rem;"></i>
+                    <h4 class="text-white">ФАН-СООБЩЕСТВО</h4>
+                    <p>Присоединитесь к тысячам фанатов, чтобы вместе пережить легендарные хиты.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Дополнительный блок -->
+        <div class="row" data-aos="fade-up">
+          <div class="col-12">
+            <div class="p-4 p-md-5 text-center rounded" style="background: #111; border: 2px solid #ff0000;">
+              <h3 class="text-danger mb-4">НЕ УПУСТИТЕ ШАНС!</h3>
+              <p class="lead mb-4">Это будет самый громкий концерт года в Брянске. Билеты заканчиваются стремительно!</p>
+              <a href="#tickets" class="btn btn-danger btn-lg px-5 py-3">КУПИТЬ БИЛЕТЫ СЕЙЧАС <i class="fas fa-arrow-right ms-2"></i></a>
+              <div class="mt-4">
+                <p class="small text-danger">Осталось менее 15% билетов</p>
+                <div class="progress" style="height: 6px;">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+
+
+    <section id="location" style="background: #000; color: white;">
+      <!-- Fullscreen Hero -->
+      <div class="vh-100 position-relative overflow-hidden">
+        <img src="images/dinamo.jpg" class="w-100 h-100 object-fit-cover" alt="Стадион Динамо">
+        <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.6);"></div>
+        <div class="position-absolute top-50 start-50 translate-middle text-center">
+          <h1 class="display-3 fw-bold text-uppercase" style="text-shadow: 0 0 10px #ff0000;">ДИНАМО</h1>
+          <p class="lead fs-2">Где рождается история</p>
+          <div class="mt-4">
+            <a href="#stadium-info" class="btn btn-lg btn-outline-light px-4 py-2">УЗНАТЬ БОЛЬШЕ</a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Stadium Intro -->
+      <div id="stadium-info" class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h2 class="fw-bold mb-4 historical-title">
+              <span class="text-danger">ИСТОРИЧЕСКИЙ</span> СТАДИОН<br>
+              <span class="text-danger">ДЛЯ</span> ИСТОРИЧЕСКОГО<br>
+              <span class="text-danger">СОБЫТИЯ</span>
+            </h2>
+            <p class="lead">Стадион "Динамо" в Брянске - место, где сходятся энергия толпы и мощь музыки. Мы полностью переоснастили его для этого особенного вечера.</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="position-relative">
+              <img src="images/vecher.jpg" class="img-fluid rounded-3 shadow-lg" alt="Стадион вечером">
+              <div class="position-absolute bottom-0 end-0 bg-danger p-2 rounded-start" style="transform: translateY(50%);">
+                <span class="fw-bold">15 АВГУСТА 2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Special Preparations -->
+      <div class="py-5" style="background: #111;">
+        <div class="container">
+          <h2 class="text-center mb-5 display-4 fw-bold">МЫ ПОДГОТОВИЛИ <span class="text-danger">НЕЧТО</span> ОСОБЕННОЕ</h2>
+          
+          <div class="row g-4">
+            <!-- Item 1 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="h-100 p-4 text-center" style="background: #1a1a1a; border-top: 3px solid #ff0000;">
+                <div class="mb-3" style="font-size: 2.5rem;">🔊</div>
+                <h3 class="text-danger">ЗВУК</h3>
+                <p>Мощная система L-Acoustics K2 специально для Linkin Park. Вы почувствуете каждый бас в груди.</p>
+              </div>
+            </div>
+            
+            <!-- Item 2 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="h-100 p-4 text-center" style="background: #1a1a1a; border-top: 3px solid #ff0000;">
+                <div class="mb-3" style="font-size: 2.5rem;">💥</div>
+                <h3 class="text-danger">ШОУ</h3>
+                <p>Огненные спецэффекты, лазеры и 8-метровые LED-экраны. Это будет видно из любой точки города.</p>
+              </div>
+            </div>
+            
+            <!-- Item 3 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="h-100 p-4 text-center" style="background: #1a1a1a; border-top: 3px solid #ff0000;">
+                <div class="mb-3" style="font-size: 2.5rem;">🍻</div>
+                <h3 class="text-danger">ФУДКОРТ</h3>
+                <p>15 тематических баров и фудтраков с craft-пивом и рок-н-ролльной едой. Никаких стадионных цен!</p>
+              </div>
+            </div>
+            
+            <!-- Item 4 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="h-100 p-4 text-center" style="background: #1a1a1a; border-top: 3px solid #ff0000;">
+                <div class="mb-3" style="font-size: 2.5rem;">🛡️</div>
+                <h3 class="text-danger">БЕЗОПАСНОСТЬ</h3>
+                <p>200 камер наблюдения и медицинские пункты каждые 50 метров. Беспокоиться не о чем.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Stadium Panorama -->
+      <div class="py-5 position-relative" style="background: #050505;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+              <h2 class="mb-4 display-5 fw-bold">360° <span class="text-danger">ПАНОРАМА</span> СТАДИОНА</h2>
+              <p class="lead mb-5">Посмотрите, как преобразился стадион для этого события</p>
+              <div class="ratio ratio-16x9">
+                <iframe class="rounded-3" src="https://www.youtube.com/embed/a-Bgbj6DWss?si=X-p5srn5UAsT0-7G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- How to Get There -->
+      <div class="py-5" style="background: #000;">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+              <div class="position-relative rounded-3 overflow-hidden" style="height: 400px;">
+                  <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9413.37364741891!2d34.3587893!3d53.2435624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x412d05e5e8e9c0e5%3A0x1b0b5a5b5b5b5b5b!2z0JHQuNGC0LDQudGB0LrQuNC5!5e0!3m2!1sru!2sru!4v1620000000000!5m2!1sru!2sru"
+                  width="100%"
+                  height="100%"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h2 class="fw-bold mb-4" style="font-size: 2.5rem;">КАК <span class="text-danger">ДОБРАТЬСЯ</span></h2>
+              <div class="mb-4">
+                <h4 class="text-danger">🚍 ОБЩЕСТВЕННЫЙ ТРАНСПОРТ</h4>
+                <p>Автобусы: 5, 12, 25 (ост. "Стадион Динамо")<br>
+                Трамваи: 1, 3 (ост. "Центральный вход")</p>
+              </div>
+              <div class="mb-4">
+                <h4 class="text-danger">🚗 НА АВТОМОБИЛЕ</h4>
+                <p>Бесплатная парковка на 2000 мест (приезжайте заранее)<br>
+                Координаты для навигатора: 53.2435, 34.3587</p>
+              </div>
+              <div>
+                <h4 class="text-danger">🚕 ТАКСИ</h4>
+                <p>Специальные промокоды для гостей концерта:<br>
+                <span class="badge bg-danger me-2">LINKINPARK1</span> - скидка 20% в Яндекс.Такси<br>
+                <span class="badge bg-danger">LINKINPARK2</span> - скидка 15% в Uber</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Футер -->
+    <footer
+      class="bg-dark text-white"
+      style="padding-top: 0.1rem; padding-bottom: 0.5rem"
+    >
+      <div class="container">
+        <!-- Соцсети -->
+        <div class="text-center footer-icons">
+          <a href="#"><i class="fab fa-vk"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <!-- Две колонки -->
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <div class="footer-form">
+              <h3 class="text-center mb-4">Заказать билеты</h3>
+              <form id="tickets">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Ваше имя"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Ваш email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="number"
+                    class="form-control"
+                    placeholder="Ваш возраст"
+                    min="1"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <select class="form-select" required>
+                    <option value="" disabled selected>
+                      Выберите тип билета
+                    </option>
+                    <option value="vip">VIP - 10 000 руб.</option>
+                    <option value="gold">Gold - 7 000 руб.</option>
+                    <option value="silver">Silver - 5 000 руб.</option>
+                    <option value="regular">Regular - 3 000 руб.</option>
+                  </select>
+                </div>
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-danger">
+                    ЗАКАЗАТЬ БИЛЕТЫ
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-4 pt-3 border-top">
+          <p>&copy; 2025 Linkin Park Concert in Брянск. Все права защищены.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      // Инициализируем AOS
+      AOS.init({
+        once: false, // Анимация будет повторяться при каждой прокрутке
+        easing: "ease", // Плавное замедление в конце
+      });
+    </script>
+  </body>
+</html>

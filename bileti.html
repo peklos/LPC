@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-con.css">
+  </head>
+  <body>
+    
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="glav.html">
+                <img src="images/logo.png" alt="Linkin Park" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="glav.html">Главная</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Концерт</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Состав</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tickets.html">Мировые туры</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="place.html">Альбомы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Контакты и отзывы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bileti.html">Билеты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="tickets-container" class="py-5" style="background: #0a0a0a; color: white;">
+        <div class="container">
+          
+          <!-- Заголовок -->
+          <div class="text-center mb-5" data-aos="fade-down">
+            <h2 class="display-4 fw-bold text-danger">БИЛЕТЫ</h2>
+            <div class="mx-auto" style="height: 3px; width: 100px; background: #ff0000;"></div>
+            <p class="lead mt-3">Выберите свой опыт. Это будет незабываемо!</p>
+          </div>
+      
+          <!-- VIP билет -->
+          <div class="row align-items-center mb-5 ticket-card" data-aos="fade-up">
+            <div class="col-lg-6">
+              <img src="images/lpvist.jpeg" alt="VIP Experience" class="img-fluid rounded shadow-lg" style="border: 2px solid #ff0000;">
+            </div>
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <div class="p-4" style="background: rgba(255,0,0,0.05); border-left: 4px solid #ff0000;">
+                <h3 class="text-danger mb-3">VIP ПАКЕТ <span class="badge bg-danger ms-2">10 000 руб.</span></h3>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><i class="fas fa-star text-danger me-2"></i> Встреча за кулисами с группой</li>
+                  <li class="mb-2"><i class="fas fa-couch text-danger me-2"></i> VIP-ложа с лучшим видом</li>
+                  <li class="mb-2"><i class="fas fa-glass-cheers text-danger me-2"></i> Открытый бар премиум-класса</li>
+                  <li class="mb-2"><i class="fas fa-guitar text-danger me-2"></i> Эксклюзивный мерч</li>
+                  <li class="mb-2"><i class="fas fa-parking text-danger me-2"></i> Отдельная парковка</li>
+                </ul>
+                <a href="#tickets" class="btn btn-outline-danger mt-3">ЗАБРОНИРОВАТЬ VIP</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Gold билет -->
+          <div class="row align-items-center mb-5 ticket-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-6 order-lg-2">
+              <img src="images/lpgold.jpg" alt="Gold Experience" class="img-fluid rounded shadow-lg" style="border: 2px solid #ff0000;">
+            </div>
+            <div class="col-lg-6 order-lg-1 mt-4 mt-lg-0">
+              <div class="p-4" style="background: rgba(255,0,0,0.05); border-left: 4px solid #ffcc00;">
+                <h3 class="text-warning mb-3">GOLD <span class="badge bg-warning text-dark ms-2">7 000 руб.</span></h3>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><i class="fas fa-chair text-warning me-2"></i> Места в первых 5 рядах</li>
+                  <li class="mb-2"><i class="fas fa-beer text-warning me-2"></i> Доступ к премиум-бару</li>
+                  <li class="mb-2"><i class="fas fa-t-shirt text-warning me-2"></i> Фирменный браслет</li>
+                  <li class="mb-2"><i class="fas fa-utensils text-warning me-2"></i> Фуршет с закусками</li>
+                </ul>
+                <a href="#tickets" class="btn btn-outline-warning mt-3">КУПИТЬ GOLD</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Silver билет -->
+          <div class="row align-items-center mb-5 ticket-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-6">
+              <img src="images/lpsilver.jpg" alt="Silver Experience" class="img-fluid rounded shadow-lg" style="border: 2px solid #ff0000;">
+            </div>
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <div class="p-4" style="background: rgba(255,0,0,0.05); border-left: 4px solid #c0c0c0;">
+                <h3 class="text-light mb-3">SILVER <span class="badge bg-light text-dark ms-2">5 000 руб.</span></h3>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><i class="fas fa-cocktail text-light me-2"></i> Доступ к барам</li>
+                  <li class="mb-2"><i class="fas fa-map-marker-alt text-light me-2"></i> Места в центральных секторах</li>
+                  <li class="mb-2"><i class="fas fa-restroom text-light me-2"></i> Отдельные туалеты</li>
+                  <li class="mb-2"><i class="fas fa-clock text-light me-2"></i> Ранний вход на стадион</li>
+                </ul>
+                <a href="#tickets" class="btn btn-outline-light mt-3">КУПИТЬ SILVER</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Regular билет -->
+          <div class="row align-items-center mb-5 ticket-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-lg-6 order-lg-2">
+              <img src="images/lpregular.jpg" alt="Regular Experience" class="img-fluid rounded shadow-lg" style="border: 2px solid #ff0000;">
+            </div>
+            <div class="col-lg-6 order-lg-1 mt-4 mt-lg-0">
+              <div class="p-4" style="background: rgba(255,0,0,0.05); border-left: 4px solid #555;">
+                <h3 class="text-secondary mb-3">REGULAR <span class="badge bg-secondary ms-2">3 000 руб.</span></h3>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><i class="fas fa-music text-secondary me-2"></i> Общие стоячие места</li>
+                  <li class="mb-2"><i class="fas fa-users text-secondary me-2"></i> Атмосфера настоящего рок-концерта</li>
+                  <li class="mb-2"><i class="fas fa-volume-up text-secondary me-2"></i> Отличный звук по всему стадиону</li>
+                  <li class="mb-2"><i class="fas fa-heart text-secondary me-2"></i> Возможность быть частью истории</li>
+                </ul>
+                <a href="#tickets" class="btn btn-outline-secondary mt-3">КУПИТЬ REGULAR</a>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Важная информация -->
+          <div class="row mt-5" data-aos="fade-up">
+            <div class="col-12">
+              <div class="p-4 rounded" style="background: rgba(255,0,0,0.1); border: 1px dashed #ff0000;">
+                <h4 class="text-danger"><i class="fas fa-exclamation-triangle me-2"></i> ВАЖНАЯ ИНФОРМАЦИЯ</h4>
+                <ul>
+                  <li>Билеты именные, при себе нужно иметь документ</li>
+                  <li>VIP-встреча начинается за 2 часа до концерта</li>
+                  <li>Возврат билетов возможен за 14 дней до мероприятия</li>
+                  <li>Дети до 14 лет допускаются только в сопровождении взрослых</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+
+    <!-- Футер -->
+    <footer
+    class="bg-dark text-white"
+    style="padding-top: 0.1rem; padding-bottom: 0.5rem"
+  >
+    <div class="container">
+      <!-- Соцсети -->
+      <div class="text-center footer-icons">
+        <a href="#"><i class="fab fa-vk"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+
+      <!-- Две колонки -->
+      <div class="row mt-4">
+        <div class="col-md-12">
+          <div class="footer-form">
+            <h3 class="text-center mb-4">Заказать билеты</h3>
+            <form id="tickets">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Ваше имя"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Ваш email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="Ваш возраст"
+                  min="1"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <select class="form-select" required>
+                  <option value="" disabled selected>
+                    Выберите тип билета
+                  </option>
+                  <option value="vip">VIP - 10 000 руб.</option>
+                  <option value="gold">Gold - 7 000 руб.</option>
+                  <option value="silver">Silver - 5 000 руб.</option>
+                  <option value="regular">Regular - 3 000 руб.</option>
+                </select>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-danger">
+                  ЗАКАЗАТЬ БИЛЕТЫ
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4 pt-3 border-top">
+        <p>&copy; 2025 Linkin Park Concert in Брянск. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      // Инициализируем AOS
+      AOS.init({
+        once: false, // Анимация будет повторяться при каждой прокрутке
+        easing: "ease", // Плавное замедление в конце
+      });
+    </script>
+  </body>
+</html>
